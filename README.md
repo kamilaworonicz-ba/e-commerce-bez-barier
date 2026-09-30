@@ -31,8 +31,6 @@ Reguły sprawdzane są od góry, więc odpowiedź „Nie” ma pierwszeństwo pr
 
 Quiz opiera się na odpowiedziach użytkownika. **Nie zastępuje audytu ani nie potwierdza zgodności z prawem.** Formularz jest demonstracyjny, nie wysyła ani nie zapisuje danych.
 
----
-
 ## 📬 Contact
 
 **Kamila Woronicz**  
