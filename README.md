@@ -6,20 +6,20 @@ Krótki quiz dla właścicieli sklepów internetowych, który wskazuje wybrane o
 
 🔗 [**Otwórz quiz**](https://kamilaworonicz-ba.github.io/e-commerce-bez-barier/)
 
-## 🎯 Motywacja i cel
+## Motywacja i cel
 
 Od 28 czerwca 2025 r. stosuje się [polską ustawę](https://eli.gov.pl/eli/DU/2024/731/ogl) z 26 kwietnia 2024 r. (tzw. Polski Akt o Dostępności), która wdraża [Europejski Akt o Dostępności](https://eur-lex.europa.eu/eli/dir/2019/882/oj?locale=pl). Obejmuje ona m.in. sklepy internetowe, z [wyłączeniem](https://www.gov.pl/web/dostepnosc-cyfrowa/polski-akt-o-dostepnosci--uslugi-handlu-elektronicznego) na przykład usług świadczonych przez mikroprzedsiębiorców.
 
 **Scenariusz użycia:** quiz może służyć jako lead magnet dla agencji i firm wdrażających sklepy internetowe. Przybliża ich klientom temat dostępności i zachęca do kontaktu w sprawie audytu sklepu.
 
-## 🧭 Doświadczenie użytkownika
+## Doświadczenie użytkownika
 
 - Osiem pytań, około trzech minut, jedno pytanie na ekranie.
 - Prosty język i krótkie objaśnienia dotyczące m.in. obsługi sklepu samą klawiaturą, czytelności, czytników ekranu i formularzy.
 - Podsumowanie dostępne od razu, bez podawania adresu e-mail.
 - Formularz kontaktowy jako kolejny krok po zapoznaniu się z wynikiem.
 
-## ⚙️ Mechanizm wyboru podsumowania
+## Mechanizm wyboru podsumowania
 
 Reguły sprawdzane są od góry, więc odpowiedź „Nie” ma pierwszeństwo przed „Nie wiem”.
 
