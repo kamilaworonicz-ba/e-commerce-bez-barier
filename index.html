@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="8 pytań o dostępność Twojego sklepu internetowego. Koncepcyjny quiz, który pomaga wskazać obszary do sprawdzenia.">
+<title>E-commerce bez barier</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Przejdź do quizu</a>
+<div class="shell">
+<header class="top">
+<div class="brand">
+<span aria-hidden="true">↗</span>E-commerce bez barier</div>
+<span class="badge">Prototyp</span>
+</header>
+<div class="layout">
+<aside class="side" aria-label="O quizie">
+
+<h2>Dobre zakupy zaczynają się od dostępności.</h2>
+<p>Małe bariery na stronie mogą być dużą przeszkodą dla Twoich klientów.</p>
+<div class="art" aria-hidden="true"><img src="grafika-boczna.png" alt="" width="440" height="228"></div>
+<p>8 obszarów. Prosty język.<br>Konkretny punkt wyjścia.</p>
+</aside>
+<main id="main" class="card" tabindex="-1">
+<section id="intro" aria-labelledby="intro-title">
+<div class="meta">8 pytań · około 3 minut</div>
+<h1 id="intro-title" tabindex="-1">Czy każdy klient może wygodnie korzystać z Twojego sklepu?</h1>
+<p>Dobrze zaprojektowany sklep jest wygodny dla każdego. Od 28 czerwca 2025 r. dostępność sklepów internetowych regulują też przepisy: <a href="https://www.gov.pl/web/dostepnosc-cyfrowa/polski-akt-o-dostepnosci--uslugi-handlu-elektronicznego" target="_blank" rel="noopener noreferrer" title="Otwiera się w nowej karcie">polska ustawa</a> wdrażająca <a href="https://eur-lex.europa.eu/eli/dir/2019/882/oj?locale=pl" target="_blank" rel="noopener noreferrer" title="Otwiera się w nowej karcie">Europejski Akt o Dostępności</a>. Chodzi o to, żeby osoby z różnymi potrzebami, np. słabiej widzące albo mające trudność ze skupieniem uwagi, mogły spokojnie znaleźć informacje, obsłużyć sklep i dokończyć zakupy.</p>
+<div class="intro-action"><button id="start">SPRAWDŹ CZY TWÓJ SKLEP JEST DOSTĘPNY</button></div>
+<div class="intro-check" aria-labelledby="intro-check-title">
+<h2 id="intro-check-title">To wstępne rozpoznanie, nie audyt.</h2>
+<div class="intro-tiles">
+<div class="intro-tile"><svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><circle cx="13" cy="13" r="8"/><path d="m19 19 9 9"/></svg><p>Quiz wskaże obszary do sprawdzenia.</p></div>
+<div class="intro-tile"><svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><rect x="7" y="3" width="19" height="26" rx="2"/><path d="M12 10h9M12 16h9M12 22h5"/></svg><p>Nie zweryfikuje, czy Twoja strona spełnia wymogi ustawy.</p></div>
+</div>
+</div>
+<p class="legal">Ustawa przewiduje wyjątki, m.in. dla usług świadczonych przez mikroprzedsiębiorców. <a href="https://www.gov.pl/web/dostepnosc-cyfrowa/polski-akt-o-dostepnosci--uslugi-handlu-elektronicznego" target="_blank" rel="noopener noreferrer" title="Otwiera się w nowej karcie">Kogo ustawa nie dotyczy</a>.</p>
+</section>
+<section id="quiz" hidden aria-label="Pytania o dostępność">
+<div id="step" class="meta">
+</div>
+<div id="progress" class="progress" aria-hidden="true">
+</div>
+<form id="question-form" novalidate>
+<fieldset id="question-field">
+<legend id="question-title" class="question-title" tabindex="-1">
+</legend>
+<p id="question-hint" class="hint">
+</p>
+<div id="options" class="options">
+</div>
+</fieldset>
+<p id="question-error" class="error" role="alert">
+</p>
+<div class="nav">
+<button type="button" id="back" class="secondary">Wstecz</button>
+<button type="submit" id="next">Dalej →</button>
+</div>
+</form>
+</section>
+<section id="result" hidden aria-labelledby="result-title">
+<div class="meta">Twoje podsumowanie</div>
+<h1 id="result-title" class="result-title" tabindex="-1">
+</h1>
+<p id="result-copy">
+</p>
+<div class="stats">
+<div class="stat">
+<strong id="positive">
+</strong>Ocenione pozytywnie</div>
+<div class="stat">
+<strong id="review">
+</strong>Do sprawdzenia</div>
+
+</div>
+<p class="legal">Poniższe oceny wynikają wyłącznie z Twoich odpowiedzi i dotyczą zakresu poszczególnych pytań. Nie potwierdzają zgodności strony z prawem ani nie zastępują audytu.</p>
+<details>
+<summary>Zobacz wszystkie odpowiedzi</summary>
+<ul id="all-answers" class="result-list">
+</ul>
+</details>
+<div class="contact">
+<div class="eyebrow">Kolejny krok</div>
+<h2>Porozmawiajmy o dostępności Twojego sklepu</h2>
+<p>Chcesz omówić wynik i przeprowadzić audyt Twojej strony? Zostaw nam kontakt. Odezwiemy się w ciągu 1 dnia roboczego.</p>
+<p class="demo-note">Formularz demonstracyjny — dane nie są wysyłane ani zapisywane.</p>
+<form id="contact-form" novalidate>
+<div class="field">
+<label for="email">Adres e-mail (wymagany) <span class="required-star" aria-hidden="true">*</span>
+</label>
+<input id="email" name="email" type="email" autocomplete="email" required placeholder="imie@firma.com" aria-describedby="email-error">
+<p id="email-error" class="error" role="alert">
+</p>
+</div>
+<div class="field">
+<label for="shop">Adres sklepu (opcjonalny)</label>
+<input id="shop" name="shop" type="text" inputmode="url" autocomplete="url" placeholder="https://twojsklep.pl" aria-describedby="shop-error">
+<p id="shop-error" class="error" role="alert">
+</p>
+</div>
+<div class="field">
+<label for="comment">Dodatkowy komentarz (opcjonalny)</label>
+<textarea id="comment" name="comment" rows="3" maxlength="500" aria-describedby="comment-hint">
+</textarea>
+<small id="comment-hint">Maksymalnie 500 znaków. Nie wpisuj danych wrażliwych.</small>
+</div>
+<button type="submit">Przetestuj prośbę o kontakt</button>
+<p id="contact-status" role="status" aria-live="polite">
+</p>
+</form>
+</div>
+<div class="nav">
+<button id="restart" class="secondary">Zacznij od nowa</button>
+</div>
+</section>
+<noscript>
+<p>Quiz wymaga JavaScript. Włącz go w przeglądarce, aby odpowiedzieć na pytania.</p>
+</noscript>
+</main>
+</div>
+<footer class="footer">
+
+<p>Kamila Woronicz · <a href="mailto:kamila.woronicz@gmail.com">kamila.woronicz@gmail.com</a>
+</p>
+<p>Źródła: <a href="https://eur-lex.europa.eu/eli/dir/2019/882/oj?locale=pl" target="_blank" rel="noopener noreferrer" title="Otwiera się w nowej karcie">Europejski Akt o Dostępności (nowa karta)</a> · <a href="https://www.gov.pl/web/dostepnosc-cyfrowa/obowiazki-informacyjne-w-pad" target="_blank" rel="noopener noreferrer" title="Otwiera się w nowej karcie">Obowiązki informacyjne w PAD</a> · <a href="https://www.w3.org/WAI/WCAG22/quickref/" target="_blank" rel="noopener noreferrer" title="Otwiera się w nowej karcie">Wytyczne WCAG (po angielsku)</a>
+</p>
+</footer>
+</div>
+<script src="quiz.js">
+</script>
+</body>
+</html>
